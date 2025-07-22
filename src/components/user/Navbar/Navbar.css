@@ -1,0 +1,60 @@
+
+.navbar-mint {
+  background-color: #e6f4ea;
+  box-shadow: 0 2px 6px rgba(46, 125, 50, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+
+.navbar-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+.navbar-title {
+  color: #2e7d32; 
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+
+.nav-mint-link {
+  color: #2e7d32 !important;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-hover:hover {
+  color: #00796b !important;
+  transform: scale(1.05);
+}
+
+
+.btn-mint-logout {
+  background-color: transparent;
+  border: 2px solid #cddc39; 
+  color: #2e7d32;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-mint-logout:hover {
+  background-color: #cddc39;
+  color: #212529;
+}
+
+
+.welcome-text {
+  color: #2e7d32;
+  font-weight: 600;
+  font-size: 1rem;
+}

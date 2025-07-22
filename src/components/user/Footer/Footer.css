@@ -1,0 +1,53 @@
+.footer-container {
+  background-color: #e6f4ea; /* أخضر فاتح */
+  color: #2e7d32; /* أخضر غامق */
+  padding: 20px 0;
+  margin-top: 40px;
+  box-shadow: 0 -2px 6px rgba(46, 125, 50, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #4caf50; /* أخضر متوسط */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #00796b; /* أخضر مزرق */
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-link svg {
+  transition: fill 0.3s ease;
+  cursor: pointer;
+}
+
+.social-link:hover svg {
+  fill: #cddc39; /* أصفر مخضر */
+}
