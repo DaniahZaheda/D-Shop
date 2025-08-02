@@ -33,7 +33,7 @@ export default function CategoryDetails() {
             <div key={product.id} className="col-md-4 mb-4">
               <div className="card h-100 shadow-sm">
                 <img
-                  src={`https://mytshop.runasp.net/images/${product.mainImg}`}
+                  src={product.mainImg}
                   alt={product.name}
                   className="card-img-top"
                   style={{ height: '220px', objectFit: 'cover' }}
